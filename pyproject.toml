@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ori"
+version = "0.1.0"
+description = "Repository Intelligence for understanding software repositories."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Cynthia Palmata Oke" }
+]
+
+keywords = [
+    "repository-intelligence",
+    "software-engineering",
+    "knowledge-management",
+    "open-source",
+    "documentation"
+]
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Oryke/ori"
+Repository = "https://github.com/Oryke/ori"
+Issues = "https://github.com/Oryke/ori/issues"
